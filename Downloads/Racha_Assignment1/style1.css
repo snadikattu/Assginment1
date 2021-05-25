@@ -1,0 +1,121 @@
+/* html {
+    font-family: serif, sans-serif;
+}
+
+body {
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+P {  
+    padding: 10px 0;
+    border: 1.5px solid skyblue;
+    border-radius: 25px;
+    text-align: center;  
+    font-size: xx-large;
+   } 
+ul {
+    list-style-type: none; 
+    padding: 10px; 
+    margin: 0;       
+    font-size: small; 
+    font-style: normal;
+  }
+
+a:visited, a:link, a:active {
+    text-decoration: none;
+    }
+a:hover{
+    text-decoration: underline!important;
+}
+   h1 {
+    vertical-align: middle;  
+    text-align: center;  
+	 
+   }
+   h2{
+       max-width: 100px;
+   }
+   .Pizzahut {       
+    text-align: center;
+    width: 50px;
+  }
+  .Deals {
+    width: 1420px;
+    height:200px
+    max-width: inline-block;
+	text-align: left;
+    /* display: flex */
+  }
+  .deals2{
+    display:inline-block;
+    width:1420px;
+    height:200px;
+	text-align: left;
+  }
+ h3{    
+    text-align: center;
+} 
+body {
+    text-align: center;
+}
+table, th, td {
+    display: grid;
+  }
+P2 {
+    padding: 20px; 
+  width: 300px;
+  resize: both;
+  text-decoration: underline;
+  overflow: auto;
+}
+P3 {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+     text-align: center;
+   /* vertical-align: middle;  */
+}
+P5 {
+    width: 100%;
+  height: auto;
+  vertical-align: middle;
+  display: flex;
+}
+
+P2 a {
+    font-size: 14px;
+    margin: 0 20px;
+}
+   div.Deals {
+    vertical-align: middle;
+    /* position: absolute;
+     top: 50%; 
+     left: 50%; 
+    transform: translate(-20%, -20%); */
+}
+div.ItemList {
+    
+    vertical-align: middle;
+     display: contents;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; 
+
+    /* position: absolute;
+     top: 50%; 
+     left: 50%; 
+    transform: translate(-20%, -20%); */
+}
+ ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  } 
+  li.Italic{
+    font-style: italic;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
